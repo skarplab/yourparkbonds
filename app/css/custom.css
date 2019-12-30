@@ -1,0 +1,160 @@
+#header {
+  background-color: #5784D5;
+  background-image: url(http://www.raleighnc.gov/cor-layout/content/static/styles/images/Skyline1.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.tab {
+background-color:#807f8c;
+color:#ffffff;
+height: 26px;
+}
+
+.tab.tab-selected {
+background-color:#D1D0D5;
+color: #292929;
+}
+
+#divStrip {
+background-color: #FFFFFF;
+}
+
+#paneLeft {
+background-color: #D1D0D5;
+}
+
+.tab-selected {
+background-color:#D1D0D5;
+color:#FFFFFF;
+cursor:default;
+}
+
+.tab:hover {
+color:#292929;
+}
+
+#title {
+margin: 0.2em 0 0 0.2em;
+font-size: 2.8em;
+font-family: 'open_sanssemibold', sans-serif;
+text-shadow: 1px 1px 3px #111;
+color: #fff;
+margin-top: 20px;
+margin-left: 2px;
+text-align: left;
+white-space: nowrap;
+overflow: visible;
+text-overflow: ellipsis;
+}
+
+#subtitle {
+font-family: 'open_sansregular', sans-serif;
+font-size: 15px;
+text-shadow: 1px 1px 3px #111;
+margin-top: 10px;
+margin-left: 8px;
+overflow: visible;
+font-weight: bold;
+color: #ffffff;
+}
+
+#logoImg {
+border: none;
+outline: none;
+}
+
+ul.tilelist img {
+display: block;
+max-width: 130px;
+max-height: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+ul.tilelist .blurb {
+  width: 110px;
+  height: 30px;
+  overflow: visible;
+  float: left;
+  margin-left: 4px;
+  text-align: left;
+}
+
+#msLink {
+color: #ffffff;
+font-family: 'open_sansregular', sans-serif;
+font-weight: normal !important;
+font-size: 13px;
+outline: none;
+text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 500px;
+    margin: 30px auto;
+  }
+.btn-primary {
+  color: #fff;
+  background-color: #245580;
+  border-color: #243C7C;
+  margin-right: 10px;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.text-left-h4 {
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+}
+
+p {
+  margin: 0 0 10px;
+  color: #333;
+}
+.modal-footer {
+  padding: 5px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
